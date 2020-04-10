@@ -1,0 +1,194 @@
+{
+    "@platforms" : [ "android", "iPhone", "iPad" ],
+    "name" : "猎手聘",
+    "appid" : "__UNI__00D862E",
+    "description" : "猎手聘",
+    "versionName" : "3.0.2",
+    "versionCode" : 96,
+    "transformPx" : false,
+    // "networkTimeout" : {
+    //     "uploadFile" : 20000,
+    //     "request" : 20000
+    // },
+    /* 5+App特有相关 */
+    "app-plus" : {
+        "usingComponents" : true,
+        "statusbar" : {
+            /*是否开启沉浸式*/
+            "immersed" : true
+        },
+        "splashscreen" : {
+            "autoclose" : true,
+            /*是否自动关闭程序启动界面，true表示应用加载应用入口页面后自动关闭；false则需调plus.navigator.closeSplashscreen()关闭*/
+            "waiting" : false,
+            /*是否在程序启动界面显示等待雪花，true表示显示，false表示不显示。*/
+            "delay" : 2000
+        },
+        /* 模块配置 */
+        "modules" : {
+            "Payment" : {},
+            "Push" : {},
+            "Share" : {}
+        },
+        /* 应用发布信息 */
+        "distribute" : {
+            /* android打包配置 */
+            "android" : {
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ]
+            },
+            /* ios打包配置 */
+            "ios" : {},
+            /* SDK配置 */
+            "sdkConfigs" : {
+                "payment" : {
+                    "alipay" : {},
+                    "appleiap" : {}
+                },
+                "oauth" : {},
+                "maps" : {},
+                "push" : {
+                    "unipush" : {}
+                },
+                "share" : {
+                    "weixin" : {
+                        "appid" : "wx3875d8ed3f20e2b2",
+                        "UniversalLinks" : ""
+                    }
+                }
+            }
+        }
+    },
+    "plus" : {
+        "statusbar" : {
+            /*是否开启沉浸式*/
+            "immersed" : true
+        },
+        // "style" : "dark",
+        // "immersed" : "supportedDevice"
+        "splashscreen" : {
+            "autoclose" : true,
+            /*是否自动关闭程序启动界面，true表示应用加载应用入口页面后自动关闭；false则需调plus.navigator.closeSplashscreen()关闭*/
+            "waiting" : true,
+            /*是否在程序启动界面显示等待雪花，true表示显示，false表示不显示。*/
+            "delay" : 2000
+        },
+        "distribute" : {
+            "apple" : {
+                "UIReserveStatusbarOffset" : true,
+                "appid" : "",
+                /*iOS应用标识，苹果开发网站申请的appid，如io.dcloud.HelloH5*/
+                "mobileprovision" : "",
+                /*iOS应用打包配置文件*/
+                "password" : "",
+                /*iOS应用打包个人证书导入密码*/
+                "p12" : "",
+                /*iOS应用打包个人证书，打包配置文件关联的个人证书*/
+                "devices" : "universal",
+                /*iOS应用支持的设备类型，可取值iphone/ipad/universal*/
+                "frameworks" : [] /*调用Native.js调用原生Objective-c API需要引用的FrameWork，如需调用GameCenter，则添加"GameKit.framework"*/
+            },
+            "google" : {
+                "ImmersedStatusbar" : true,
+                "packagename" : "",
+                /*Android应用包名，如io.dcloud.HelloH5*/
+                "keystore" : "",
+                /*Android应用打包使用的密钥库文件*/
+                "password" : "",
+                /*Android应用打包使用密钥库中证书的密码*/
+                "aliasname" : "",
+                /*Android应用打包使用密钥库中证书的别名*/
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ],
+                "abiFilters" : []
+            }
+        }
+    },
+    /* 快应用特有相关 */
+    "quickapp" : {},
+    /* 小程序特有相关 */
+    "mp-weixin" : {
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : false
+        },
+        "usingComponents" : true
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "h5" : {
+        "title" : "猎手聘",
+        "domain" : "lsp.jiuduanfw.com",
+        "router" : {
+            "mode" : "hash"
+        },
+        "async" : {
+            //页面js异步加载配置
+            "loading" : "AsyncLoading", //页面js加载时使用的组件（需注册为全局组件）
+            "error" : "AsyncError", //页面js加载失败时使用的组件（需注册为全局组件）
+            "delay" : 100000, //展示 loading 加载组件的延时时间（页面 js 若在 delay 时间内加载完成，则不会显示 loading 组件）
+            "timeout" : 120000 //页面js加载超时时间（超时后展示 error 对应的组件）
+        }
+    },
+    "networkTimeout" : {
+        "request" : 40000, //uni.request的settimeout
+        "connectSocket" : 40000,
+        "uploadFile" : 40000,
+        "downloadFile" : 40000
+    }
+}

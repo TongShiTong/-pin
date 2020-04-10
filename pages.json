@@ -1,0 +1,672 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页,
+		{
+		    "path": "pages/login/code_login",
+		    "style": {
+				"navigationStyle":"custom"
+		    }
+		},{
+		    "path" : "pages/choose_identity/choose_identity",
+		    "style" : {
+				// "navigationBarTitleText": "请选择您的身份",
+				// "navigationBarBackgroundColor": "#fff",
+				// "backgroundColor": "#fff"
+				}
+		}, {
+		    "path": "pages/login/login",
+		    "style": {
+		        // "navigationBarTitleText": "登录"
+		    }
+		},{
+            "path": "pages/main/main",
+            "style": {
+                "navigationBarTitleText": "登录模板"
+            }
+        },{
+            "path": "pages/reg/reg",
+            "style": {
+                "navigationBarTitleText": "注册"
+            }
+        }, {
+            "path": "pages/pwd/pwd",
+            "style": {
+                "navigationBarTitleText": "找回密码"
+            }
+        }, {
+            "path": "pages/user/user",
+            "style": {
+                "navigationBarTitleText": "我的"
+            }
+        }
+        ,{
+            "path" : "pages/index/index",
+            "style" : {
+				"navigationBarTitleText": "猎手聘",
+				"navigationStyle":"custom"
+			}
+        },{
+            "path" : "pages/index/enterprise_terminal/enter_prove/enter_prove",
+            "style" : {
+				"navigationStyle":"custom"
+				// "navigationBarTitleText": "企业认证",
+				// "navigationBarBackgroundColor": "#FF5A1F",
+				// "backgroundColor": "#FF5A1F",
+				// "navigationBarTextStyle": "white"
+			}
+        },{
+            "path" : "pages/index/enterprise_terminal/send_out",
+            "style" : {
+				"navigationBarTitleText": "发布岗位"
+			}
+        },{
+            "path" : "pages/index/hunter_terminal/hunter_prove/hunter_prove",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+		,{
+		    "path" : "pages/index/enterprise_terminal/enter_position",
+		    "style" : {
+				// "navigationBarTitleText": "身份认证",
+				"navigationBarBackgroundColor": "#FF5A1F",
+				"backgroundColor": "#FF5A1F",
+				"navigationBarTextStyle": "white"
+				// "app-plus": {
+				// 	"titleNView": {
+				// 		"type": "transparent",//透明渐变导航栏
+				// 		"titleColor":"#000000",
+				// 		"backgroundColor":"#f7f7f7"
+				// 	}
+				// }
+			}
+		},{
+		    "path" : "pages/index/hunter_terminal/task",
+		    "style" : {
+				"navigationBarTitleText": "任务"
+				// "app-plus": {
+				// 	"titleNView": {
+				// 		"type": "transparent",//透明渐变导航栏
+				// 		"titleColor":"#000000",
+				// 		"backgroundColor":"#f7f7f7"
+				// 	}
+				// }
+			}
+		}
+        ,{
+            "path" : "pages/index/hunter_terminal/user/setting/setting",
+            "style" : {
+				"navigationBarTitleText": "设置"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/user/notice/notice",
+            "style" : {
+				"navigationBarTitleText": "通知"
+				// "app-plus": {
+				// 	"titleNView": {
+				// 		"type": "transparent",//透明渐变导航栏
+				// 		"titleColor":"#000000",
+				// 		"backgroundColor":"#f7f7f7"
+				// 	}
+				// }
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/user/collect/collect",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/user/notes/notes",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/user/withdraw/withdraw",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/user/invite/invite",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/user/help/help",
+            "style" : {
+				"navigationBarTitleText": "帮助与反馈"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/user/c_service/c_service",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/login/login_next/login_next",
+            "style" : {
+				// "navigationBarTitleText": "输入验证码",
+				// "navigationBarBackgroundColor": "#fff",
+				// "backgroundColor": "#fff"
+			}
+        }
+		,{
+		    "path" : "pages/login/login_next/invite_next",
+		    "style" : {
+				// "navigationBarTitleText": "输入验证码",
+				// "navigationBarBackgroundColor": "#fff",
+				// "backgroundColor": "#fff"
+			}
+		},{
+            "path" : "pages/index/hunter_terminal/talent_container",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/p_detail/p_detail",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/t_detail/t_detail",
+            "style" : {
+				"navigationBarTitleText": "提报中"
+			}
+        },{
+            "path" : "pages/index/enterprise_terminal/e_p_detail/e_p_detail",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+		
+        ,{
+            "path" : "pages/index/enterprise_terminal/p_change/p_change",
+            "style" : {
+				"navigationBarTitleText": "修改岗位"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/add_talent/add_talent",
+            "style" : {
+				"navigationBarTitleText": "添加人才"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/talent_Report/talent_Report",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/h_t_detail/h_t_detail",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/repair_detail/repair_detail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/user/wallet/wallet",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/user/bank_card/bank_card",
+            "style" : {
+				"navigationBarTitleText": "我的银行卡",
+				"navigationBarBackgroundColor": "#F5F5F5",
+				"backgroundColor": "#F5F5F5"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/user/invite/invite",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/user/help/help",
+            "style" : {
+				"navigationBarTitleText": "帮助与反馈"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/user/c_service/c_service",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/user/setting/setting",
+            "style" : {
+				"navigationBarTitleText": "设置"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/user/notice/notice",
+            "style" : {
+				"navigationBarTitleText": "通知"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/recharge/recharge",
+            "style" : {
+				"navigationBarTitleText": "充值",
+				"navigationBarBackgroundColor": "#F5F5F5",
+				"backgroundColor": "#F5F5F5"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/withdraw/withdraw",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/source/source",
+            "style" : {
+				"navigationBarTitleText": "资金明细",
+				"navigationBarBackgroundColor": "#FF5A1F",
+				"backgroundColor": "#FF5A1F",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/check_in/check_in",
+            "style" : {
+				"navigationBarTitleText": "用工中"
+			}
+        }
+        ,{
+            "path" : "pages/pay/pay",
+            "style" : {
+				"navigationBarTitleText": "确认订单"
+			}
+        }
+        ,{
+            "path" : "pages/record/record",
+            "style" : {
+				"navigationBarTitleText": "招聘中",
+				"onReachBottomDistance": 50
+			}
+        }
+        ,{
+            "path" : "pages/billing_details/billing_details",
+            "style" : {
+				"navigationBarTitleText": "待结算"
+			}
+        }
+        ,{
+            "path" : "pages/billing/billing",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/attend/attend",
+            "style" : {
+				"navigationBarTitleText": "用工中"
+			}
+        }
+        ,{
+            "path" : "pages/pay_result/pay_result",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/user/bank_card/bank_card",
+            "style" : {
+				"navigationBarTitleText": "我的银行卡",
+				"navigationBarBackgroundColor": "#F5F5F5",
+				"backgroundColor": "#F5F5F5"
+				// "app-plus": {
+				// 	"titleNView": {
+				// 		"type": "transparent",//透明渐变导航栏
+				// 		"titleColor":"#000000",
+				// 		"backgroundColor":"#f7f7f7"
+				// 	}
+				// }
+			}
+        }
+        ,{
+            "path" : "pages/add_card/add_card",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/back_info/back_info",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/wallet/wallet",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/source/source",
+            "style" : {
+				"navigationBarTitleText": "资金明细",
+				"navigationBarBackgroundColor": "#FF5A1F",
+				"backgroundColor": "#FF5A1F",
+				"navigationBarTextStyle": "white"
+				// "app-plus": {
+				// 	"titleNView": {
+				// 		"type": "transparent",//透明渐变导航栏
+				// 		"titleColor":"#000000",
+				// 		"backgroundColor":"#f7f7f7"
+				// 	}
+				// }
+			}
+        }
+        ,{
+            "path" : "pages/withdraw_status/withdraw_status",
+            "style" : {
+				"navigationBarTitleText": "提现明细",
+				"navigationBarBackgroundColor": "#FF5A1F",
+				"backgroundColor": "#FF5A1F",
+				"navigationBarTextStyle": "white"
+				//  "app-plus": {
+				// 	"titleNView": {
+				// 		"type": "transparent",//透明渐变导航栏
+				// 		"titleColor":"#000000",
+				// 		"backgroundColor":"#f7f7f7"
+				// 	}
+				// }
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/recharge/recharge",
+            "style" : {
+				"navigationBarTitleText": "充值",
+				"navigationBarBackgroundColor": "#F5F5F5",
+				"backgroundColor": "#F5F5F5"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/margin/margin",
+            "style" : {
+				"navigationBarTitleText": "服务保障金"
+			}
+        }
+        ,{
+            "path" : "pages/help-detail/help-detail",
+            "style" : {
+				"navigationBarTitleText": "帮助详情"
+			}
+        }
+        ,{
+            "path" : "pages/invite_detail/invite_detail",
+            "style" : {
+				"navigationBarBackgroundColor": "#FF5A1F",
+				"backgroundColor": "#FF5A1F",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/notice_detail/notice_detail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/invite_login",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/userinfo/userinfo",
+            "style" : {
+				"navigationBarTitleText": "个人信息"
+			}
+        }
+        ,{
+            "path" : "pages/Identity_switch/Identity_switch",
+            "style" : {
+				"navigationBarTitleText": "身份切换"
+			}
+        }
+        ,{
+            "path" : "pages/prove_see/prove_see",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/huan_ren/huan_ren",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "map/map",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" : {
+				"navigationBarTitleText": "关于我们"
+			}
+        }
+        ,{
+            "path" : "pages/protocol/protocol",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/search/search",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/protocol_box/protocol_box",
+            "style" : {
+				"navigationBarTitleText": "服务协议"
+			}
+        }
+        ,{
+            "path" : "pages/share_hb/share_hb",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/qz_e_detail/qz_e_detail",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/qz_pay/qz_pay",
+            "style" : {
+				"navigationBarTitleText": "确认订单"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/qz_change/qz_change",
+            "style" : {
+				"navigationBarTitleText": "修改岗位"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/qz_record/qz_record",
+            "style" : {
+				"navigationBarTitleText": "提报人员"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/qz_p_detail/qz_p_detail",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/qz_t_report/qz_t_report",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/qz_t_detail/qz_t_detail",
+            "style" : {
+				"navigationBarTitleText": "招聘中",
+				"navigationBarBackgroundColor": "#FB5337",
+				"backgroundColor": "#FB5337",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/qz_renwu/qz_renwu",
+            "style" : {
+				"navigationBarTitleText": "招聘中",
+				"navigationBarBackgroundColor": "#FB5337",
+				"backgroundColor": "#FB5337",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/m_inform/m_inform",
+            "style" : {
+				"navigationBarTitleText": "月度报表",
+				"navigationBarBackgroundColor": "#FF5A1F",
+				"backgroundColor": "#FF5A1F",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/history_inform/history_inform",
+            "style" : {
+				"navigationBarTitleText": "赏金月报"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/rz_register/rz_register",
+            "style" : {
+				"navigationBarTitleText": "入职登记"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/rz_list/rz_list",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/qz_record/qz_record",
+            "style" : {
+				"navigationBarTitleText": "提报人员"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/rz_list/rz_list",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/lz_list/lz_list",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/buyuan/buyuan",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/ms_list/ms_list",
+            "style" : {
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/sy_ms/sy_ms",
+            "style" : {
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/history_inform/history_inform",
+            "style" : {
+				"navigationBarTitleText": "赏金月报"
+			}
+        }
+        ,{
+            "path" : "pages/index/hunter_terminal/m_inform/m_inform",
+            "style" : {
+				"navigationBarTitleText": "月度报表",
+				"navigationBarBackgroundColor": "#FF5A1F",
+				"backgroundColor": "#FF5A1F",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/lz_list/lz_list",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/lz_shensu/lz_shensu",
+            "style" : {
+				"navigationBarBackgroundColor": "#F7F7F7",
+				"backgroundColor": "#F7F7F7",
+				"navigationBarTitleText": "离职申诉"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/yucun/yucun",
+            "style" : {
+				"navigationBarBackgroundColor": "#F7F7F7",
+				"backgroundColor": "#F7F7F7"
+			}
+        }
+        ,{
+            "path" : "pages/index/enterprise_terminal/jiesuan/jiesuan",
+            "style" : {
+				"navigationBarTitleText": "结算明细"
+			}
+        }
+        ,{
+            "path" : "pages/logout/logout",
+            "style" : {
+				"navigationBarTitleText": "账号注销"
+			}
+        }
+        ,{
+            "path" : "pages/important_hint/important_hint",
+            "style" : {}
+        }
+    ],
+    "tabBar": {
+        "color": "#7a7e83",
+        "selectedColor": "#0faeff",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "pages/main/main",
+            "text": "首页",
+            "iconPath": "static/img/home.png",
+            "selectedIconPath": "static/img/homeHL.png"
+        }, {
+            "pagePath": "pages/user/user",
+            "text": "我的",
+            "iconPath": "static/img/user.png",
+            "selectedIconPath": "static/img/userHL.png"
+        }]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#fff",
+        "backgroundColor": "#fff"
+		
+    },
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

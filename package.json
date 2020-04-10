@@ -1,0 +1,27 @@
+{
+  "name": "hunter_engaged",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.0.1",
+    "clipboard": "^2.0.4",
+    "jquery": "^3.4.1",
+    "jweixin-module": "^1.4.1",
+    "mint-ui": "^2.2.13",
+    "qrcanvas": "^3.0.4",
+    "vue-amap": "^0.5.10",
+    "vue-baidu-map": "^0.21.22",
+    "vue-pull-refresh": "^0.2.7",
+    "weixin-js-sdk": "^1.4.0-test"
+  }
+}

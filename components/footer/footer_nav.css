@@ -1,0 +1,41 @@
+@font-face {
+	font-family: uniicons;
+	font-weight: normal;
+	font-style: normal;
+	src: url('../font/uni.ttf') format('truetype');
+}
+
+.active {
+	color: #FF5A1F;
+}
+.footer{
+		height: 120upx;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		/* background: url(../../static/footer_icon/footer.png) no-repeat; */
+		background: #FAFAFA;
+		color: #666666;
+		padding-top: 20upx;
+	}
+	.footer_item{
+		float: left;
+		width: 33.3%;
+		text-align: center;
+		font-size: 20upx;
+		height: 120upx;
+	 
+	}
+	.footer_item image{
+		width: 44upx;
+		height: 44upx;
+	}
+	.footer_item.big_item{
+		position: relative;
+		/* top: -40upx; */
+	}
+	.footer_item.big_item image{
+		width: 76upx;
+		height: 76upx;
+	}
