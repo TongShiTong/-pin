@@ -15,7 +15,7 @@
   "dependencies": {
     "@dcloudio/uni-ui": "^1.0.1",
     "clipboard": "^2.0.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jweixin-module": "^1.4.1",
     "mint-ui": "^2.2.13",
     "qrcanvas": "^3.0.4",
